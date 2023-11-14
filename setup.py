@@ -34,7 +34,7 @@ setup(
         "Topic :: Software Development :: Build Tools",
         # Pick your license as you wish
         "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3.10.13",
+        "Programming Language :: Python :: 3.10 :: Only",
     ],
     keywords="research, digital forensics, development",  # Optional
     package_dir={"": "phaser"},  # Optional
