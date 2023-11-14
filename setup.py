@@ -33,8 +33,8 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Build Tools",
         # Pick your license as you wish
-        "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3.10 :: Only",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Programming Language :: Python :: 3.10",
     ],
     keywords="research, digital forensics, development",  # Optional
     package_dir={"": "phaser"},  # Optional
