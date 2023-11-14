@@ -1,4 +1,3 @@
-# https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
 name: Publish Python 🐍 distribution 📦 to PyPI and TestPyPI
 
 on: push
@@ -37,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/phaser  # Replace <package-name> with your PyPI project name
+      url: https://pypi.org/p/PHASER_tmp  # Replace <package-name> with your PyPI project name
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
@@ -101,7 +100,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/phaser
+      url: https://test.pypi.org/p/PHASER_tmp
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing

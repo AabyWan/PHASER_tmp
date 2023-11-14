@@ -19,7 +19,7 @@ setup(
     description="A Perceptual Hashing Algorithms Evaluation and Results framework",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AabyWan/PHASER",
+    url="https://github.com/AabyWan/PHASER_tmp",
     author="Peter Aaby",
     author_email="aabywancanaaby@gmail.com",
     # Classifiers help users find your project by categorizing it.
@@ -34,7 +34,7 @@ setup(
         "Topic :: Software Development :: Build Tools",
         # Pick your license as you wish
         "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3.10.13 :: Only",
+        "Programming Language :: Python :: 3.10.13",
     ],
     keywords="research, digital forensics, development",  # Optional
     package_dir={"": "phaser"},  # Optional
@@ -43,6 +43,6 @@ setup(
     # https://packaging.python.org/discussions/install-requires-vs-requirements/
     install_requires=["numpy", "pandas", "scipy"],  # Optional
     project_urls={  # Optional
-        "Source": "https://github.com/AabyWan/PHASER/",
+        "Source": "https://github.com/AabyWan/PHASER_tmp/",
     },
 )
