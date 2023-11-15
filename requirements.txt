@@ -1,3 +1,6 @@
+pytest
+pytest-cov
+codecov
 ghp-import==2.1.0
 ImageHash==4.3.1
 pandas==2.1.0
