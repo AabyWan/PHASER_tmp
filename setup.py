@@ -14,7 +14,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="phaser",
+    name="PHASER_tmp", # must match on pypi
     version=phaser_remote_version,
     description="A Perceptual Hashing Algorithms Evaluation and Results framework",
     long_description=long_description,
