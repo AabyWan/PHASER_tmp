@@ -1,0 +1,29 @@
+phaser.tests package
+====================
+
+Submodules
+----------
+
+phaser.tests.conftest module
+----------------------------
+
+.. automodule:: phaser.tests.conftest
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+phaser.tests.test\_utils module
+-------------------------------
+
+.. automodule:: phaser.tests.test_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: phaser.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:
